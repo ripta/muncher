@@ -1,0 +1,13 @@
+name "muncher"
+description "Snake Clone in D"
+authors "Ripta Pasay (ripta)"
+copyright "Copyright © 2023–2024, Ripta Pasay (ripta)"
+license "MIT"
+
+dependency "raylib-d" version="~>5.0.0"
+
+configuration "application" {
+	targetType "executable"
+	libs "raylib"
+	lflags "-L." "-rpath" "@executable_path/" "-framework" "IOKit" "-framework" "Cocoa" "-framework" "OpenGL"
+}

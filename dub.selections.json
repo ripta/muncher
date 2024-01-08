@@ -1,0 +1,9 @@
+{
+	"fileVersion": 1,
+	"versions": {
+		"io": "0.3.5",
+		"iopipe": "0.2.5",
+		"jsoniopipe": "0.2.7",
+		"raylib-d": "5.0.0"
+	}
+}
